@@ -1,5 +1,7 @@
 # Rails React.js Recipes
 
+![Recipe](app/assets/images/recipe.png)
+
 > Set Up a Ruby on Rails Project with a React Frontend following [Digital Ocean guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-project-with-a-react-frontend)
 
 ## Built With
@@ -24,16 +26,19 @@ I was using MacOS when building this app. To change ruby version on other operat
 ### Setup
 
 - Install ruby version 2.7.6 and use it
+
   ```
   rvm install 2.7.6 && rvm use 2.7.6
   ```
 
 - Install rails version 6
+
   ```
   gem install rails -v 6.1.6.1
   ```
 
 - Start new rails application with a specific version
+
   ```
   rails _6.1.6.1_ new rails_react_recipe -d=postgresql -T
   ```
@@ -67,6 +72,7 @@ yarn add -D webpack-dev-server@3.11.2 --exact
   ```
   rails g controller Homepage index
   ```
+
 - Rename `app/javascript/packs/hello_react.jsx` to `app/javascript/packs/Index.jsx`
 - Update `config/routes.rb` add root route
 
@@ -117,14 +123,15 @@ yarn add -D webpack-dev-server@3.11.2 --exact
   ```
 
   Open a different terminal and start the rails server
+
   ```
   rails server
   ```
 
   - Remember that bootstrap imports are in `app/javascript/packs/application.js`
-  
+
   - Step one to four from the book has been updated with these changes
-  But you need to copy the the content of these files from the book in step five
+    But you need to copy the the content of these files from the book in step five
     - `app/javascript/routes/Index.jsx`
     - `app/javascript/components/App.jsx`
     - `app/javascript/packs/Index.jsx`
@@ -132,7 +139,6 @@ yarn add -D webpack-dev-server@3.11.2 --exact
 
 You should be able to start your application by running the two commands above.
 If you encounter any issues you can check my code on this branch [react-rails-setup](https://github.com/learnwithalfred/recipes-111/tree/react-rails-setup) on github
-
 
 ## Authors
 
