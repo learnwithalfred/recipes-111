@@ -131,8 +131,8 @@ yarn add -D webpack-dev-server@3.11.2 --exact
     - `app/assets/stylesheets/application.css`
 
 You should be able to start your application by running the two commands above.
-If you encounter any issues you can check my code on this branch `react-rails-setup` on github
-You can continue from step 6 in the book
+If you encounter any issues you can check my code on this branch [react-rails-setup](https://github.com/learnwithalfred/recipes-111/tree/react-rails-setup) on github
+
 
 ## Authors
 
